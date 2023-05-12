@@ -1,0 +1,302 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+body {
+    background-color: black;
+    color: rgb(204, 204, 255);
+}
+
+a {
+    color: wheat;
+    text-decoration: none;
+}
+
+/* Navbar */ 
+#contact-form {
+    margin-left: 800px;
+}
+
+/* Navbar End */
+
+
+/* Landing start */
+/* COME BACK AND FIX IMAGE */
+/* .main {
+    position: relative;
+} */
+.main {
+    content: '';
+    /* display: block; */
+    /* position: absolute; */
+    background: url(./images/C12\ C2\ Lyle\ Kepkey\ \(1\).JPG) no-repeat;
+    /* background-color: white; */
+    background-size: cover;
+    height: 90vh;
+    /* opacity: 0.5; */
+    /* line-height: 5; */
+    width:100%;
+
+}
+
+
+.main h3 {
+    font-size: 4.4rem;
+    font-weight: 700;
+    position: relative;
+}
+.main h6 {
+    border-bottom: 3px solid black;
+    font-size: 1.4rem;
+    line-height: 1;
+    text-transform: uppercase;
+    position: relative;
+    width: 50%;
+}
+
+
+/* Landing end */
+
+
+/* ABOUT */
+
+.about img {
+    box-shadow: 3px 3px 19px 0px rgba(255,255,255);
+}
+h1{
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+/* PROG BAR */
+.progress{
+    align-items: center;
+    background-color:  #FF00FF;
+    border-radius: 50px;
+    display: flex;
+    height: 25px;
+    justify-content: flex-start;
+    position: relative;
+    width: 100%;
+}
+
+/* Prog1 */
+.prog-value1 {
+    animation: load1 5s normal forwards;
+    background-color: black;
+    /* background-color: #FF00FF; */
+    border-radius: 50px;
+    height: 25px;
+    width: 0px;
+    padding: 3px;
+}
+.progress p{
+    color: wheat;
+}
+
+@keyframes load1 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 95%;
+    }
+}
+
+/* Prog2 */
+.prog-value2 {
+    animation: load2 5s normal forwards;
+    background-color: black;
+    /* background-color: #FF00FF; */
+    border-radius: 50px;
+    height: 25px;
+    width: 0px;
+    padding: 3px;
+}
+@keyframes load2 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 80%;
+    }
+}
+
+/* Prog3 */
+.prog-value3 {
+    animation: load3 5s normal forwards;
+    background-color: black;
+    /* background-color: #FF00FF; */
+    border-radius: 50px;
+    height: 25px;
+    width: 0px;
+    padding: 3px;
+}
+@keyframes load3 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 98%;
+    }
+}
+
+/* Prog4 */
+.prog-value4 {
+    animation: load4 5s normal forwards;
+    /*background-color: black;*/
+    border-radius: 50px;
+    height: 25px;
+    width: 0px;
+    padding: 3px;
+    -webkit-animation: load4 5s normal forwards;
+}
+@keyframes load4 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 0%;
+    }
+}
+
+/* ABOUT END */
+
+/* Testimonial */
+
+.container1 {
+    /* background-color: aqua; */
+    height: 199vh;
+    text-align: center;
+}
+
+.cards-container-1 {
+    background-color: black;
+    /* color: wheat; */
+    display: flex;
+    height: 190vh;
+    justify-content: center;
+    margin: 0px;
+    padding-top: 100px;
+    /* overflow: hidden; */
+}
+#cards1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    max-width: 926px;
+    width: calc(100% - 20px);
+}
+
+.card-1 {
+    background-color: rgb(255, 255, 255, 0.1);
+    border-radius: 10px;
+    color: rgb(204, 204, 255);
+    height: 570px;
+    position: relative;
+    width: 300px;
+}
+.card-content-1 {
+    padding-top: 10px;
+    text-align: center;
+}
+.card-content-1 img {
+    width: 170px;
+}
+
+
+
+
+/* Testimonial End */
+
+
+/* Media */
+
+@media only screen and (min-width: 320px) {
+    #contact-form {
+        margin-left: 0px;
+    }
+
+    .container1 {
+        height: 720vh;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .card-1{
+        height: 113vh;
+    }
+}
+@media only screen and (min-width: 412px) {
+    #contact-form {
+        margin-left: 0px;
+    }
+
+    .container1 {
+        height: 400vh;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+@media only screen and (min-width: 653px) {
+    #contact-form {
+        margin-left: 0px;
+    }
+
+    .container1 {
+        height: 530vh;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+}
+@media only screen and (min-width: 768px) {
+    #contact-form {
+        margin-left: 0px;
+    }
+
+    .container1 {
+        height: 600vh;
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    #contact-form {
+        margin-left: 470px;
+    }
+
+    .container1 {
+        height: 600vh;
+        /* padding-left: 30%;
+        padding-right: 30%; */
+    }
+}
+@media only screen and (min-width: 1350px) {
+    #contact-form {
+        margin-left: 800px;
+    }
+    .card-1{
+        height: 80vh;
+    }
+    .container1 {
+        /* background-color: aqua; */
+        height: 510vh;
+        /* padding-left: 30%;
+        padding-right: 30%; */
+    }
+    .cards-container-1{
+        /* background-color: blue; */
+        display: flex;
+        /* width: 500vh; */
+        height: 100vh;
+        /* justify-content: center; */
+        margin: 0px;
+        padding-top: 50px;
+    }
+}
+
+/* Media End */
