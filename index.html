@@ -22,7 +22,7 @@
     <body>
 
         <!-- Nav -->
-
+<header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-black">
             <div class="container-fluid">
                 <img src="./assets/style.css/images/1683206946785-thumbnail.jpeg" style="width:80px">
@@ -41,20 +41,21 @@
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#testimonial">Testimonial</a>
                   </li>
-                  <li class="nav-item" id="contact-form">
-                    <a class="nav-link" data-toggle="modal" href=#"">Contact-form</a>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#contact-form">Contact-form</a>
                   </li>
                 </ul>
               </div>
             </div>
           </nav>
+        </header>
 
           <!-- NAV END -->
 
 
 
           <!-- LANDING BEGIN -->
-          
+          <main>
           <section class="main py-2">
             <div class="container py-5">
                 <div class="row py-5">
@@ -125,7 +126,7 @@
           <!-- Work / Edu -->
 
           <section class="services py-5" id="work/edu">
-            <div class="container py-5">
+            <div class="container col-lg-8 py-5">
               <div class="cards-container">
 
                 <div id="cards">
@@ -172,7 +173,7 @@
           <!-- Testimonial -->
 
           
-            <div class="container container1" id="testimonial">
+            <div class="container container1 col-lg-9" id="testimonial">
                   <div>
                     <h2>Testimonial</h2>
                     <div class="cards-container-1">
@@ -197,12 +198,27 @@
                           <div class="card-1">
                               <div class="card-border-1"></div>
                               <div class="card-content-1">
+                                <img src="./assets/style.css/images/IMG_3453.jpg" style="width: 250px;">
+                                <p>Lyle is a man of few words and more action. He does not 
+                                  shy away from a challenge and he is very resourceful. When 
+                                  you ask for his help, he is always there and will try to the 
+                                  best of his ability. He is a good team player and takes pride 
+                                  in his work. His commitment to meeting deadlines and delivering 
+                                  quality work is outstanding. I would recommend Lyle for any web 
+                                  development project.</p>
                               </div>
                           </div>
       
                           <div class="card-1">
                               <div class="card-border-1"></div>
                               <div class="card-content-1">
+                                <img src="./assets/style.css/images/C12 Cheslyn Herman (1).JPG">
+                                <p>I recently had the pleasure of working with an amazing front-end 
+                                  developer, and I must say, he exceeded all of my expectations. From 
+                                  the moment we started working together, it was clear that he was a 
+                                  true expert in his field. His knowledge of HTML, CSS, and JavaScript 
+                                  was impressive, and he was able to create beautiful, functional 
+                                  websites with ease.</p>
                               </div>
                           </div>
 
@@ -222,7 +238,15 @@
                             <div class="card-border-1"></div>
                             <div class="card-content-1">
                               <img src="./assets/style.css/images/meezaan.jpg" style="width:200px">
-                              <p></p>
+                              <p>Lyle is a bright and talented coder who has been steadily 
+                                improving his skills. His quick ability to catch on to new 
+                                coding concepts and apply them to his work has been 
+                                impressive. As Lyle's team leader, I am impressed with 
+                                his natural talent for coding and her quick ability to 
+                                catch on to new concepts. He has been steadily improving 
+                                her skills and is a valuable contributor to our team. His 
+                                bright personality and dedication to her work make him an 
+                                asset to our projects.</p>
                             </div>
                           </div>
 
@@ -231,7 +255,13 @@
                               <div class="card-content-1">
                                 <img src="./assets/style.css/images/C12 Tara Snell (2).JPG">
                                 <p>Lyle is a confident person. He's willing to learn. Super helpful
-                                   when it comes to things he knows well.</p>
+                                    when it comes to things he knows well. What I appreciated 
+                                    most about this developer was his attention to detail. 
+                                    He had a keen eye for design, and he was able to bring my 
+                                    vision to life in a way that I never could have imagined. 
+                                    He was also incredibly thorough in his work, ensuring that
+                                    every element of the website was perfect before we 
+                                    launched it.</p>
                               </div>
                           </div>
                        </div>
@@ -244,31 +274,52 @@
 
 
           <!-- Contact Form -->
-  
-          <form action="https://formspree.io/f/myyalyzb" method="POST">
-          <label>
-            Your email:
-            <input type="email" name="email">
-          </label>
-          <label>
-            Your message:
-            <textarea name="message"></textarea>
-          </label>
-          <!-- your other form fields go here -->
-          <button type="submit">Send</button>
-        </form>
-  
+          <!-- <div class="col-lg-5" style="background-color: white;">
+            <form action="https://formspree.io/f/myyalyzb" method="POST">
+            <label>
+              Your email:
+              <input type="email" name="email">
+            </label>
+            <label>
+              Your message:
+              <textarea name="message"></textarea>
+            </label>
+            your other form fields go here
+           <button type="submit">Send</button>
+            </form>
+          </div> -->
+
+
+            <div class="col-lg-8">
+              <form class="col-lg-8 ms-auto mt-5" action="https://formspree.io/f/myyalyzb" method="POST">
+                <div class="mt-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mt-3">
+                  <label for="exampleInputPassword1" class="form-label">
+                    Your message
+                  </label>
+                  <textarea type="message" name="message"></textarea>
+                  <!-- <input type="password" class="form-control" id="exampleInputPassword1"> -->
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+            </div>
           <!-- Contact Form End -->
 
-
+        </main>
           
           <!-- Footer -->
 
-          <footer class="p-3" style="text-align: center;">
+          <footer class="col-s-5 col-11 m-3 p-3" style="text-align: center;">
             <!-- L.K &copy 2023 -->
             <div>
               <h6>L.K&copy 2023<h6>
                 <p>Copy right is a thing you know</p>
+                <a href="https://github.com/Lylekepkey"><img src="./assets/style.css/images/icons8-github.gif" style="width: 40px;"></a>
+                <a href="#"><img src="./assets/style.css/images/icons8-linkedin-circled.gif" style="width: 40px;"></a>
             </div>
         </footer>
           
