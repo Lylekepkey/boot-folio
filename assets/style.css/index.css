@@ -6,14 +6,11 @@
     
 }
 
-html,
-body{
-    overflow-x:hidden;
-}
 
 body {
     background-color: black;
     color: rgb(204, 204, 255);
+    overflow-x:hidden;
 }
 
 a {
@@ -175,9 +172,13 @@ h1{
 
 .container1 {
     /* background-color: aqua; */
-    height: 199vh;
+    /* height: 200vh; */
+    height: 200dvh;
     text-align: center;
 }
+/* Contact form */
+
+/* Contact form End */
 
 .cards-container-1 {
     background-color: black;
@@ -213,94 +214,10 @@ h1{
     width: 170px;
 }
 
-
+/* #contact-form{
+    position: absolute;
+    bottom: 0;
+} */
 
 
 /* Testimonial End */
-
-
-/* Media */
-
-/* @media only screen and (min-width: 320px) {
-    #contact-form {
-        margin-left: 0px;
-    }
-
-    .container1 {
-        height: 720vh;
-        padding-left: 10%;
-        padding-right: 10%;
-    }
-    .card-1{
-        height: 113vh;
-    }
-} */
-/* @media only screen and (min-width: 412px) {
-    #contact-form {
-        margin-left: 0px;
-    }
-
-    .container1 {
-        height: 400vh;
-        padding-left: 10%;
-        padding-right: 10%;
-    }
-} */
-/* @media only screen and (min-width: 653px) {
-    #contact-form {
-        margin-left: 0px;
-    }
-
-    .container1 {
-        height: 530vh;
-        padding-left: 15%;
-        padding-right: 15%;
-    }
-} */
-/* @media only screen and (min-width: 768px) {
-    #contact-form {
-        margin-left: 0px;
-    }
-
-    .container1 {
-        height: 600vh;
-        padding-left: 25%;
-        padding-right: 25%;
-    }
-} */
-/* @media only screen and (min-width: 1024px) {
-    #contact-form {
-        margin-left: 470px;
-    }
-
-    .container1 {
-        height: 600vh;
-        /* padding-left: 30%;
-        padding-right: 30%; */
-    }
-} */
-/* @media only screen and (min-width: 1350px) {
-    #contact-form {
-        margin-left: 800px;
-    /* }
-    .card-1{
-        height: 80vh;
-    }
-    .container1 {
-        /* background-color: aqua; */
-        height: 510vh;
-        /* padding-left: 30%;
-        padding-right: 30%; */
-    } */
-    /* .cards-container-1{
-        /* background-color: blue; */
-        display: flex;
-        /* width: 500vh; */
-        height: 100vh;
-        /* justify-content: center; */
-        margin: 0px;
-        padding-top: 50px;
-    } */
- }  */
-
-/* Media End */

@@ -39,6 +39,7 @@
     height: 260px;
     position: relative;
     width: 300px;
+    
 }
 .card::before,
 .card > .card-border {
@@ -64,7 +65,7 @@
         rgba(255, 255, 255, 0.06),
         transparent 40%
     );
-    z-index: 3;
+    /* z-index: 3; */
 }
 .card > .card-border {
     background: radial-gradient(
@@ -87,6 +88,12 @@
 .card-content {
     text-align: center;
 }
+
+/* #text-card {
+    position: relative;
+    z-index: 1 !important;
+} */
+
 
 /* Media */
 
