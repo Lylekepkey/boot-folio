@@ -17,20 +17,6 @@ a {
     color: wheat;
     text-decoration: none;
 }
-
-/* Navbar */ 
-/* #contact-form {
-    margin-left: 800px;
-} */
-
-/* Navbar End */
-
-
-/* Landing start */
-/* COME BACK AND FIX IMAGE */
-/* .main {
-    position: relative;
-} */
 .main {
     content: '';
     /* display: block; */
@@ -105,7 +91,7 @@ h1{
         width: 0;
     }
     100% {
-        width: 95%;
+        width: 80%;
     }
 }
 
@@ -124,7 +110,7 @@ h1{
         width: 0;
     }
     100% {
-        width: 80%;
+        width: 50%;
     }
 }
 
@@ -143,7 +129,7 @@ h1{
         width: 0;
     }
     100% {
-        width: 98%;
+        width: 70%;
     }
 }
 
@@ -182,6 +168,7 @@ h1{
 
 .cards-container-1 {
     background-color: black;
+    /* border: 1px solid white; */
     /* color: wheat; */
     display: flex;
     height: 190vh;
@@ -197,12 +184,16 @@ h1{
     max-width: 926px;
     width: calc(100% - 20px);
 }
+#img-2 {
+    width: 180px;
+    height: 260px;
+}
 
 .card-1 {
     background-color: rgb(255, 255, 255, 0.1);
     border-radius: 10px;
     color: rgb(204, 204, 255);
-    height: 570px;
+    height: 580px;
     position: relative;
     width: 300px;
 }
@@ -221,3 +212,43 @@ h1{
 
 
 /* Testimonial End */
+
+
+/* Media */
+@media (min-width: 800px) and (max-width:1050px){
+    .cards-container-1{
+        height: 280vh !important;
+    }
+}
+@media (min-width: 755px) and (max-width:800px){
+    .cards-container-1{
+        height: 300vh !important;
+    }
+    .card-1 {
+        height: 80vh !important;
+    }
+}
+
+@media (min-width:400px) and (max-width: 755px) {    
+    .cards-container-1 {
+        height: 500vh !important;
+    }
+    .card-1{
+        height: 85vh !important;
+    }
+}
+@media (min-width:265px) and (max-width: 400px) {    
+    .cards-container-1 {
+        height: 580vh !important;
+    }
+    .card-1{
+        height: 90vh !important;
+    }
+    .card-border-1 {
+        width: 80vh !important;
+    }
+}
+
+
+
+/* Media End  */
