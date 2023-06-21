@@ -205,11 +205,6 @@ h1{
     width: 170px;
 }
 
-/* #contact-form{
-    position: absolute;
-    bottom: 0;
-} */
-
 
 /* Testimonial End */
 
@@ -217,7 +212,7 @@ h1{
 /* Media */
 @media (min-width: 800px) and (max-width:1050px){
     .cards-container-1{
-        height: 280vh !important;
+        height: 270vh !important;
     }
 }
 @media (min-width: 755px) and (max-width:800px){
@@ -231,7 +226,7 @@ h1{
 
 @media (min-width:400px) and (max-width: 755px) {    
     .cards-container-1 {
-        height: 500vh !important;
+        height: 550vh !important;
     }
     .card-1{
         height: 85vh !important;
